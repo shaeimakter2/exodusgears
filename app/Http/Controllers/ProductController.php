@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\DB;
 use Cart;
 class ProductController extends Controller
 {
-   public function productview($id,$Product_name){
+   public function productview($id,$product_name=''){
        $product=DB::table('products')
            ->join('categories','products.category_id','categories.id')
            ->join('subcategories','products.subcategory_id','subcategories.id')

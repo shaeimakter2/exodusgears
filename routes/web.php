@@ -130,7 +130,7 @@ Route::get('get/subcategory/{category_id}','Admin\ProductController@GetSubcat');
 //frontend are where==========
 Route::post('store/newslater', 'FrontController@storenewslater')->name('store.newslater');
 Route::post('product/search', 'FrontController@productsearch')->name('product.search');
-Route::get('product/details/{id}/{Product_name}', 'ProductController@productview');
+Route::get('product/details/{id}/{product_name?}', 'ProductController@productview');
 Route::post('/cart/product/add/{id}', 'ProductController@AddCart');
 
 Route::get('/products/{id}', 'ProductController@productsView');
