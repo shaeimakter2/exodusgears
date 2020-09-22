@@ -143,9 +143,9 @@
                             <div class="form-group" style="text-align: center;">
                                 <label for="exampleInputEmail1">To Buy</label>
                                 <ul class="logos_list">
-                                    <li><input  type="radio" name="payment" value="stripe"><img src="{{asset('public/frontend/images/logos_1.png')}}" alt=""></li>
+                                    <!--<li><input  type="radio" name="payment" value="stripe"><img src="{{asset('public/frontend/images/logos_1.png')}}" alt=""></li>
                                     <li><input  type="radio" name="payment" value="visa"><img src="{{asset('public/frontend/images/logos_2.png')}}" alt=""></li>
-                                    <li><input  type="radio" name="payment" value="paypal"><img src="{{asset('public/frontend/images/logos_3.png')}}" alt=""></li>
+                                    <li><input  type="radio" name="payment" value="paypal"><img src="{{asset('public/frontend/images/logos_3.png')}}" alt=""></li>-->
                                     <li><input  type="radio" name="payment" value="Cash_on_Delivery"><img src="{{asset('public/frontend/images/logos_5.png')}}" alt=""></li>
                                 </ul>
                             </div>
