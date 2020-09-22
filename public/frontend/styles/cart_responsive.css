@@ -319,7 +319,7 @@
 	}
 	.cart_buttons
 	{
-		text-align: left;
+		text-align: center;
 	}
 }
 
@@ -476,6 +476,7 @@
 	.button
 	{
 		height: 32px;
+		margin: 10px;
 	}
 	.button a
 	{
@@ -495,6 +496,7 @@
 		padding-left: 25px;
 		padding-right: 25px;
 		margin-right: 11px;
+		margin-bottom: 10px;
 	}
 	.cart_button_checkout
 	{
@@ -621,6 +623,11 @@
 
 @media only screen and (max-width: 480px)
 {
+	.button
+	{
+		height: 32px;
+		margin: 10px;
+	}
 	.single_post_title
 	{
 		font-size: 24px;
