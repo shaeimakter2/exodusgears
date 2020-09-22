@@ -150,7 +150,7 @@
                                 </ul>
                             </div>
 
-                            <div class="contact_form_button col-sm-7" style="margin-left: 170px;">
+                            <div class="contact_form_button col-sm-7" style="text-align: center;">
                                 <button type="submit" class="btn btn-info">Buy Now</button>
                             </div>
                         </form>
